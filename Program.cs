@@ -8,7 +8,9 @@ class Program {
 
         string input = System.Console.ReadLine();
 
-        string[] words = input.Split(" ");
+        string[] words;
+
+        words = input.Split(" ");
 
         string result = "";
 
